@@ -1,0 +1,60 @@
+img {
+  max-width: 100%;
+}
+
+main {
+  background-color: var(--White);
+  position: absolute;
+  top: 7%;
+  left: 25%;
+  right: 25%;
+  border-radius: 10px;
+  padding: 25px;
+  box-shadow: 0px 5px 10px var(--Grayish-purple);
+}
+
+main h1 {
+  font-size: 50px;
+}
+
+div h2:hover {
+  color: purple;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+main section p {
+  display: none;
+  color: var(--Grayish-purple);
+}
+
+main .start {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+main section div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+button{
+  border: none;
+  cursor: pointer;
+  height: 30px;
+  width: 40px;
+  border-radius: 50px;
+}
+
+.plus {
+  container: '';
+  background: url(../images/icon-plus.svg) no-repeat;
+}
+
+.minus {
+  container: '';
+  background: url(../images/icon-minus.svg) no-repeat;
+}
