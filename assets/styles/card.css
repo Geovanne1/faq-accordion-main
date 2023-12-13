@@ -11,6 +11,7 @@ main {
   border-radius: 10px;
   padding: 25px;
   box-shadow: 0px 5px 10px var(--Grayish-purple);
+  overflow-y: auto;
 }
 
 main h1 {
@@ -67,12 +68,17 @@ button{
     bottom: 15%;
   }
 
+  main h1 {
+    font-size: 35px;
+  }
+
   main h2 {
     font-size: 20px;
   }
 
   main section p {
     font-size: 14px;
+    margin: 5px 0px;
   }
 
   main {
