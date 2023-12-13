@@ -51,10 +51,33 @@ button{
 
 .plus {
   container: '';
+  padding: 15px;
   background: url(../images/icon-plus.svg) no-repeat;
 }
 
 .minus {
   container: '';
   background: url(../images/icon-minus.svg) no-repeat;
+}
+
+@media screen and (max-width: 748px) {
+  main {
+    left: 5%;
+    right: 5%;
+    bottom: 15%;
+  }
+
+  main h2 {
+    font-size: 20px;
+  }
+
+  main section p {
+    font-size: 14px;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
 }
